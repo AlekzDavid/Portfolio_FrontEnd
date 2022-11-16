@@ -1,15 +1,8 @@
-body {
-    background-color: antiquewhite;
+.bg-color {
+    background-color: whitesmoke;
 }
 
-.Titulo {
-    color: darkblue;
-    text-align: center;
-}
-
-p {
-    color: red;
-    font-family: monospace;
-    font-size: xx-large;
-     
+.imagen-letracolor { /*invierte el color de la imagen del logo*/
+    -webkit-filter: invert(1);
+    filter: invert(1);
 }
